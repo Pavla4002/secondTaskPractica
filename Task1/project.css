@@ -1,0 +1,59 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.mainPage_centerDarkBlock{
+    width: 40%;
+    height: 100vh;
+    background-color:#3E3C3C;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.maiPage_centerDarkBlock_forButton{
+    display: flex;
+    flex-direction: column;
+}
+.mainPage_logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+}
+.mainPage_logo img{
+    width: 36%;
+}
+.maiPage_logo_buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    height: 20vh;
+}
+.maiPage_centerDarkBlock_forButtons{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainPage_buttonFirst{
+    width: 30%;
+    height: 4vw;
+    margin-bottom: 7%;
+    font-size: 14px;
+}
+.mainPage_buttonSecond{
+    width: 30%;
+    height: 4vw;
+    font-size: 14px;
+}
+
