@@ -4,16 +4,26 @@
     padding: 0;
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
+.mainPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
 .mainPage_centerDarkBlock{
     width: 40%;
-    height: 100vh;
+    height: 70vh;
     background-color:#3E3C3C;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
+   position: relative;
 }
 .maiPage_centerDarkBlock_forButton{
     display: flex;
@@ -24,7 +34,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 25%;
+    top: 20%;
 }
 .mainPage_logo img{
     width: 36%;
@@ -45,15 +55,25 @@
     flex-direction: column;
     align-items: center;
 }
+.linkButton1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.linkButton2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .mainPage_buttonFirst{
     width: 30%;
     height: 4vw;
     margin-bottom: 7%;
-    font-size: 14px;
+    font-size: 16px;
 }
 .mainPage_buttonSecond{
     width: 30%;
     height: 4vw;
-    font-size: 14px;
+    font-size: 16px;
 }
 
